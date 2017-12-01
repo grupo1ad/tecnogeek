@@ -1,0 +1,54 @@
+*{
+margin: 0px;
+	padding: 0px;
+   /*font-family: 'Slabo 27px', serif;*/
+   /*background: #e5e4e2;*/
+   box-sizing: border-box;
+   /*background:#e5e4e2 ;*/
+
+}
+
+
+.div{
+  width: 50%;
+  height: 50%;
+   margin:0px auto;
+   padding: 60px;
+   box-sizing:border-box;
+
+}
+.añadir{
+	margin:0px auto;
+    margin-top: 40px;
+    padding: 50px 20px;    
+    box-shadow: 0 0 10PX 3px rgba(34, 22, 3,0.5);
+   font-family: 'Spectral SC', serif;
+    border-radius: 5px;
+ 
+}
+.campo{
+margin:0px 5px 0px 5px;
+height: 27px;
+float:right;
+width: 40%;
+background: rgba(44,34,34,0.1); 
+border: 1px solid rgba(83,104,120,0.3);
+ 
+}
+.formulario{
+	float:left;
+	margin: 0px 0px;
+   font-family: 'Spectral SC', serif;
+}
+.bottom{
+	float: left;
+  display: block;
+   margin: 0px 220px;
+ 	padding: 9px 50px ;
+ 	background: rgba(173,173,173,0.6);
+ 	border: 1px solid rgba(83,104,120,0.3);
+  border-radius: 15px;
+   font-family: 'Spectral SC', serif;
+  }
+
+   

@@ -1,0 +1,95 @@
+	.color{
+			background:#68A3D3;
+		}
+		table{
+			border:2px solid #979696;
+			margin:0px auto;
+		}
+		td, tr, th{
+			border:1px solid #979696;
+			text-align: center;
+			border-top:none;
+			border-left:none;
+			border-right:none;
+		}
+		
+		.color2{
+			background:#61BBD1;
+		}
+		#mostrar{
+			width: 25%;
+			height:300px;
+			margin:1%;
+			float:left;	
+			background:#C8C8C8;
+			padding:10px;	
+		}
+		.imagen{
+			width:90%;
+			height:150px;
+			margin:10px;
+		}
+		.nombre2{
+			margin-left:0px;
+			font-weight:bold;
+			margin-bottom:5px;
+		}
+		.precio{
+			margin-left: 0px;
+			color:black;
+			
+		}
+#mostrar ul{
+	margin-top:10px;	
+	margin-left:5px;
+}
+		#mostrar ul li{
+			list-style: none;
+			
+		}
+		#mostrar ul li a{
+			/*display:inline-block;*/
+			text-decoration: none;
+			color:white;
+			padding: 10px 20px;
+			background: black;
+			float:left;
+			margin:5px;
+			border-radius:10px;
+			margin-top:0px;
+			}
+		#mostrar ul li a:hover{
+		    background:#1d6180;
+		}
+		.titulos{
+			font-size:35px;
+			font-weight:bold;
+			margin-left:20px;
+
+			}
+		.subtitulo{
+			font-size:25px;
+			font-weight:bold;
+			margin-left:20px;
+		}
+		.precio2{
+			color:red;
+			font-weight:bold;
+			font-size:20px;
+			margin-left:20px;
+		}
+		.imagen3{
+			width:90%;
+			margin:25px;
+			height:400px;
+		}
+		#descripcion_producto{
+		
+			width:40%;
+			margin:50px 0% 50px 10%;
+			float:left;
+			/*background:orange;*/
+		}
+		.descripcion{
+			margin:20px;
+		}

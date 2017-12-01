@@ -1,0 +1,226 @@
+/* https://www.flaticon.com */
+
+
+
+body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: black;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 70%;
+      height: 30%;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      width: 75%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  .hola{
+    height: 50%;
+    width: 50%;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  .bg-1 {
+      background: black;
+      color: grey;
+  }
+  .bg-1 h3 {color: white;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: black;
+      color: white;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid black;
+      background-color: grey;
+      color: black;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: black;
+  } 
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: grey;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: black !important;
+  }
+  .navbar-nav li a:hover {
+      color: #00c3ff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #00c3ff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: black !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: grey !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }  
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+
+
+div#imagen {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("../img/PC.png");
+  margin: 30px auto;
+}
+
+div#imagen:hover div#info {
+  opacity:1;
+}
+
+div#imagen:hover p#headline {
+  margin-left: 75px;
+}
+
+div#imagen:hover p#descripcion {
+  margin-top: 75px;
+}
+
+div#imagen1 {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("../img/Ce.jpg");
+  margin: 30px auto;
+}
+
+div#imagen1:hover div#info {
+  opacity:1;
+}
+
+div#imagen1:hover p#headline {
+  margin-left: 50px;
+}
+
+div#imagen1:hover p#descripcion {
+  margin-top: 75px;
+}
+
+div#imagen2 {
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-image: url("../img/Te.jpg");
+  margin: 30px auto;
+}
+
+div#imagen2:hover div#info {
+  opacity:1;
+}
+
+div#imagen2:hover p#headline {
+  margin-left: 50px;
+}
+
+div#imagen2:hover p#descripcion {
+  margin-top: 75px;
+}
+
+div#info {
+  position:absolute;
+  overflow:hidden;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity:0;
+  transition: opacity 0.3s;
+}
+
+p#headline {
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+  color: white;
+}
+
+p#descripcion {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+  color: white;
+}
